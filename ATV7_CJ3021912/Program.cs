@@ -94,7 +94,7 @@
                     case 6:
                     //exercicio 6
                     Console.WriteLine("exercicio 6");
-                    int num7,num8,num9,num10,num11,num12,num13,num14,num15,num16,maior,menor, valor5 = 0;
+                    int num7,num8,num9,num10,num11,num12,num13,num14,num15,num16, valor5 = 0;
                     Console.WriteLine("insira o primeiro numero");
                     num7 = int.Parse(Console.ReadLine());
                     Console.WriteLine("insira o segundo numero");
@@ -115,10 +115,14 @@
                     num15 = int.Parse(Console.ReadLine());
                     Console.WriteLine("insira o decimo numero");
                     num16 = int.Parse(Console.ReadLine());
-                    maior = num7;
-                    menor = num7;
+                    break;
                     do
                     {
+                        valor5++;
+                        if (valor5 > num7 || valor5 > num8 || valor5 > num9 || valor5 > num10 || valor5 > num11 || valor5 > num12 || valor5 > num13 || valor5 > num14 || valor5 > num15 || valor5 > num16)
+                        {
+                            Console.WriteLine(valor5);
+                        }
 
                     }
             }
